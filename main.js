@@ -2,11 +2,6 @@ const { controlLight, colors }=require('./controlLight');
 const { getAqi }=require('./getAqi');
 
 async function main() {
-    controlLight({
-        on: true,
-        ...colors.purple
-    });
-    
     const aqi=await getAqi();
     console.log(aqi);
 

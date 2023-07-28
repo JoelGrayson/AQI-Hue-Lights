@@ -10,6 +10,7 @@ const controlLight=obj=>
 module.exports={
     controlLight,
     colors: {
+        // From https://docs.airnowapi.org/aq101
         yellow: {
             bri: 50, //0-254
             sat: 254, //0-254

@@ -1,0 +1,6 @@
+# Every 15 minutes, run the program
+0 * * * * cd /home/pibridge/Desktop/AQI-Hue-Lights && node main.js
+15 * * * * cd /home/pibridge/Desktop/AQI-Hue-Lights && node main.js
+30 * * * * cd /home/pibridge/Desktop/AQI-Hue-Lights && node main.js
+45 * * * * cd /home/pibridge/Desktop/AQI-Hue-Lights && node main.js
+
