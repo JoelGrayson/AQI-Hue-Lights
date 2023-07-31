@@ -46,3 +46,4 @@ AQI Numbers	AQI Category (Descriptor)	    AQI Color   Hexadecimal Color Value	Ca
 }
 
 main();
+
